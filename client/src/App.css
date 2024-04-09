@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text_input {
+  @apply border-2 w-full border-gray-600 placeholder-gray-800 py-2 px-4 rounded-md outline-none;
+}
+
+.btn {
+  @apply py-2 bg-gray-800 text-white rounded-md text-lg hover:bg-gray-700 transition-all duration-100
+}
+
+
+.hideScrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.hideScrollbar::-webkit-scrollbar {
+    display: none;
+}
